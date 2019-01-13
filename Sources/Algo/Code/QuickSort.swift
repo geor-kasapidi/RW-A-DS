@@ -113,8 +113,8 @@ final class QuickSort {
                 }
             }
 
-            stack.push((low, j))
             stack.push((j + 1, high))
+            stack.push((low, j))
         }
     }
 
